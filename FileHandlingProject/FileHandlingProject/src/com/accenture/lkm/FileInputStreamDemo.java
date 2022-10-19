@@ -8,7 +8,7 @@ public class FileInputStreamDemo {
 
 	public static void main(String[] args) throws IOException 
 	{
-		FileInputStream fIn=new FileInputStream("fil.txt");
+		FileInputStream fIn=new FileInputStream("fill.txt");
 		int c=0;
 		while((c=fIn.read())!=-1)
 		{
